@@ -1,5 +1,5 @@
 /*!
- *  VueVisible plugin v1.0.0
+ *  VueVisible plugin v1.0.1
  * 
  *  v-visible directive for vue.
  * 

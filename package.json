@@ -1,6 +1,6 @@
 {
   "name": "vue-visible",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "v-visible directive for Vuejs",
   "main": "dist/v-visible.js",
   "scripts": {
