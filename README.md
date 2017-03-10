@@ -2,6 +2,9 @@
 
 v-visible directive for VueJS
 
+## Demo
+A jsFiddle live demo: https://jsfiddle.net/fcpc6utm/
+
 ## About
 
 This plugins adds a v-visible directive (similar to the native v-show) that changes the `visibility` style of the applied element (hidden or visible).
