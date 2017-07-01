@@ -1,6 +1,6 @@
 # VueVisible
 
-v-visible directive for VueJS
+v-visible directive for VueJS (2.x)
 
 ## Demo
 A jsFiddle live demo: https://jsfiddle.net/fcpc6utm/
