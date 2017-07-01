@@ -3,7 +3,7 @@ const vVisible = {
         Vue.directive('visible', (el, binding) => {
             var value = binding.value;
 
-            if (value === true) {
+            if (!!value) {
                 el.style.visibility = 'visible';
             } else {
                 el.style.visibility = 'hidden';
