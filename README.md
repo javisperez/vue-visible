@@ -17,6 +17,12 @@ With npm:
 npm install --save vue-visible
 ```
 
+With CDN:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/vue-visible@1/dist/v-visible.min.js"></script>
+```
+
 ## Usage
 
 If you're using modules, first import it:
