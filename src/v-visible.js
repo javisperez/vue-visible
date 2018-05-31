@@ -12,7 +12,7 @@ const vVisible = {
     }
 };
 
-if (window.Vue) {
+if (typeof window !== 'undefined' && window.Vue) {
     window.Vue.use(vVisible);
 }
 
