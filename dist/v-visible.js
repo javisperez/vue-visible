@@ -18,7 +18,6 @@ function __webpack_require__(moduleId){/******/
 /******/
 if(installedModules[moduleId])/******/
 return installedModules[moduleId].exports;/******/
-/******/
 // Create a new module (and put it into the cache)
 /******/
 var module=installedModules[moduleId]={/******/
@@ -85,4 +84,4 @@ function(){return module};/******/
 /******/
 return __webpack_require__.d(getter,"a",getter),getter},__webpack_require__.o=function(object,property){return Object.prototype.hasOwnProperty.call(object,property)},__webpack_require__.p="",__webpack_require__(__webpack_require__.s=0)}([/* 0 */
 /***/
-function(module,exports,__webpack_require__){"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var vVisible={install:function(Vue){Vue.directive("visible",function(el,binding){var value=binding.value;el.style.visibility=value?"visible":"hidden"})}};window.Vue&&window.Vue.use(vVisible),exports.default=vVisible}])});
+function(module,exports,__webpack_require__){"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var vVisible={install:function(Vue){Vue.directive("visible",function(el,binding){var value=binding.value;el.style.visibility=value?"visible":"hidden"})}};"undefined"!=typeof window&&window.Vue&&window.Vue.use(vVisible),exports.default=vVisible}])});

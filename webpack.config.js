@@ -13,7 +13,7 @@ module.exports = {
     entry: './src/v-visible.js',
 
     output: {
-        path: './dist/',
+        path: __dirname + '/dist/',
         filename: 'v-visible.js',
         library: 'VueVisible',
         libraryTarget: 'umd',
