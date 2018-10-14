@@ -13,8 +13,8 @@ This plugins adds a v-visible directive (similar to the native v-show) that chan
 
 With npm:
 
-```
-npm install --save vue-visible
+```console
+$ npm install --save vue-visible
 ```
 
 With CDN:
@@ -27,7 +27,7 @@ With CDN:
 
 If you're using modules, first import it:
 
-```
+```js
 import VueVisible from 'vue-visible';
 
 Vue.use(VueVisible);
@@ -35,15 +35,15 @@ Vue.use(VueVisible);
 
 Then in your template just use the directive:
 
-```
+```html
 <div v-visible="myCondition">I'm visible</div>
 ```
 
 Or if you're not using modules, just include the js:
 
-```
+```html
 <script src="node_modules/vue-visible/dist/v-visible.js"></script>
 ```
-```
+```html
 <div v-visible="myCondition">I'm visible</div>
 ```
